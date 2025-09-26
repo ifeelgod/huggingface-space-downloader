@@ -1,0 +1,5 @@
+{
+  "name": "Hugging Face Space Downloader",
+  "description": "An application to browse and download data files from Hugging Face Spaces. Enter a Space ID to view its files and download them directly.",
+  "requestFramePermissions": []
+}
