@@ -7,7 +7,7 @@ import FileList from './components/FileList';
 import Loader from './components/Loader';
 
 const App: React.FC = () => {
-  const [spaceId, setSpaceId] = useState<string>('ifeelgod/gbprescueaudit');
+  const [spaceId, setSpaceId] = useState<string>('');
   const [hfToken, setHfToken] = useState<string>('');
   const [files, setFiles] = useState<HfFile[]>([]);
   const [currentRepo, setCurrentRepo] = useState<string>('');
